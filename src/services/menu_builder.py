@@ -35,7 +35,6 @@ class MenuBuilder:
                         "price": dish.price,
                         "restrictions": list(dish.get_restrictions()),
                         "ingredients": list(dish.get_ingredients()),
-                    }   
+                    }
                 )
         return result
-
